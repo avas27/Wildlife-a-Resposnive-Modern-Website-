@@ -10,12 +10,35 @@
     <title>Home</title>
   </head>
   <body>
+      <div id="myModal" class="modal fade" role="dialog">
+          <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+              <div class="modal-header">
+                  <h4 class="modal-title text-success">Vann - a Wildlife Tour</h4>
+                <button type="button" class="close text-danger" data-dismiss="modal">&times;</button>
+              </div>
+              <div class="modal-body">
+                <h5>About</h5>
+                <p>Front-End (INT-219) Project work</p>
+                <p>Assigned by: Ms. Neha Sharma</p>
+                <hr/>
+                <p ><h6 class="text-center">Built and Designed by:</h6>Shivani - 11701620<br/>Abhishek Verma - 1702561<br/>Vivek Tiwari - 11702815 <br/>Sumit Kumar - 11701545<br/>Atharva Hatekar - 11702970
+                <h6 class="text-secondary text-center mt-3">Lovely Professional University, India</h6></p>
+              </div>
+              <div class="modal-footer">
+                <span class="text-secondary">2019 © an avas27 design</span><img src="assets/avas_Logo.svg" id="avasLogo">
+              </div>
+            </div>
+        
+          </div>
+        </div>
     <div class="container-fluid">
       <div class="row">
         <div class="col-12">
           <div class="navbar navbar-light navbar-expand-md fixed-top" id="navBg">
             <div class="navbar-brand navBar">
-              <img src="assets/vann_logo.svg" />
+              <img src="assets/vann_logo.svg" id="logo"/>
             </div>
             <button
               class="navbar-toggler "
@@ -31,19 +54,19 @@
                   <a href="#" class="nav-link navItem">Home</a>
                 </li>
                 <li class="nav-item pr-3">
-                  <a href="#" class="nav-link navItem">Parks</a>
+                  <a href="#par" class="nav-link navItem">Parks</a>
                 </li>
                 <li class="nav-item pr-3">
-                  <a href="#" class="nav-link navItem">Sanctuaries</a>
+                  <a href="#sanct" class="nav-link navItem">Sanctuaries</a>
                 </li>
                 <li class="nav-item pr-3">
-                  <a href="#" class="nav-link navItem">Muzeums</a>
+                  <a href="#sanct" class="nav-link navItem">Museums</a>
                 </li>
                 <li class="nav-item pr-3">
-                  <a href="#" class="nav-link navItem">Reserves</a>
+                  <a href="#sanct" class="nav-link navItem">Reserves</a>
                 </li>
                 <li class="nav-item " id="x">
-                  <a href="#" class="nav-link navItem">About</a>
+                  <a href="#" data-toggle="modal" data-target="#myModal" class="nav-link navItem">About</a>
                 </li>
               </ul>
             </div>
@@ -54,21 +77,99 @@
     <div class="container-fluid p-0 m-0">
       <div class="row p-0 m-0">
         <div class="col-12 bg p-0 m-0">
-         
+            <div class="container-fluid con">
+                <div class="row ">
+                  <div class="col-12">
+                    <div class="pg1">
+                      <img src="assets/vann_logo.svg" id="homeLogo">
+                    </div>
+                  </div>
+                  <div class="col-8 offset-2 text-center">
+                      <h3 class="mt-3 hText">a Wildlife Tour</h3>
+                      <h5 class="mt-5 pgText"><span class="hidden">Welcome to the virtual tour of awesome wildlives across India and the world, acknowledge the greatness of amazing Parks, Sanctuaries, Museums and Reserves that protects and serves to the wildlife of our world</span><br/>Experience an awesome journey!</h5>
+                  <a href="#" class="btn mt-5 pt-2 pb-2 pl-3 pr-3" id="tourBtn">Take me on the tour</a>  
+                  <a href="#" class="btn mt-5 pt-2 pb-2 pl-3 pr-3 ml-3" id="tourBtn2">Explore Wildlife</a>    
+                </div>
+                </div>
+              </div>
           <img src="assets/bg-nd.svg" class="img-fluid bgImg" />
         </div>
       </div>
     </div>
-    <div class="container-fluid p-0 m-0">
+    <div class="container-fluid p-0 m-0" id="par">
       <div class="row p-0 m-0">
         <div class="col-12 bgg p-0 m-0">
+            <div class="container-fluid con con2">
+                <div class="row">
+                  <div class="col-12">
+                    <div class="pg1">
+                      <h1>National Parks</h1>
+                    </div>
+                  </div>
+                  <div class="col-8 offset-2 text-center">
+                      <h6 class="mt-0">Explore the famous National wildlife parks of India</h6>
+                      <div class="d-flex align-self-center justify-content-center mt-md-5">
+                      <div class="park mr-md-3">
+                        <img src="assets/gir.jpg" class="d-flex align-self-center img-thumbnail">
+                        <h3 class="thHeading mt-3" >Gir Natinal Park</h3>
+                        <h6>Gir Forest National Park is a <br/>wildlife sanctuary in Gujarat, India</h6>
+                      <a href="#" class="btn btn-block btn-success">Explore</a>
+                      </div>
+                      <div class="park mr-md-4 ml-md-4 ml-2 mr-2">
+                          <img src="assets/Kaziranga National Park in Assam_1553856939.jpg" class="d-flex align-self-center img-thumbnail">
+                        <h3 class="thHeading mt-3" >Kaziranga Park</h3>
+                        <h6>Kaziranga is a national <br/>park in the state of Assam, India</h6>
+                      <a href="#" class="btn btn-block btn-success">Explore</a>
+                        </div>
+                        <div class="park ml-md-3">
+                            <img src="assets/dachigam-national-park.jpg" class="d-flex align-self-center img-thumbnail">
+                        <h3 class="thHeading mt-3" >Dachingam Park </h3>
+                        <h6>Dachigam National Park is <br/>located in Jammu and Kashmir, India</h6>
+                      <a href="#" class="btn btn-block btn-success">Explore</a>
+                          </div>
+                      </div>
+                </div>
+                </div>
+              </div>
           <img src="assets/bg-n.svg" class="img-fluid bgImg" />
         </div>
       </div>
     </div>
-    <div class="container-fluid p-0 m-0">
+    <div class="container-fluid p-0 m-0" id="sanct">
       <div class="row p-0 m-0">
         <div class="col-12 bggg p-0 m-0">
+            <div class="container-fluid con con3" style="top:100px;">
+                <div class="row " >
+                  <div class="col-12">
+                    <div class="pg1">
+                      <h1>Sanctuaries &nbsp; Museums &nbsp;Reserves</h1>
+                    </div>
+                  </div>
+                  <div class="col-8 offset-2 text-center">
+                      <h6 class="mt-0">Explore the famous National wildlife parks of India</h6>
+                      <div class="d-flex align-self-center justify-content-center mt-md-5">
+                      <div class="park mr-md-3">
+                        <img src="assets/kanha.jpg" class="d-flex align-self-center img-thumbnail">
+                        <h3 class="thHeading mt-3" >Kanha Sanctuary </h3>
+                        <h6>Kanha National Park is <br/>one of the largest tiger <br/>reserves of Madhya Pradesh, India</h6>
+                      <a href="#" class="btn btn-block btn-success">Explore</a>
+                      </div>
+                      <div class="park mr-md-4 ml-md-4 ml-2 mr-2">
+                          <img src="assets/mz.jpg" class="d-flex align-self-center img-thumbnail">
+                        <h3 class="thHeading mt-3" >Kaziranga Park</h3>
+                        <h6>It is a natural history museum <br/>located on the National Mall in <br/>Washington, D.C., United States.</h6>
+                      <a href="#" class="btn btn-block btn-success">Explore</a>
+                        </div>
+                        <div class="park ml-md-3">
+                            <img src="assets/nandadevi.png" class="d-flex align-self-center img-thumbnail">
+                        <h3 class="thHeading mt-3" >Nandadevi Reserve</h3>
+                        <h6>Nanda Devi Biosphere is situated<br/> around the peak of Nanda Devi<br/> in Uttarakhand, northern India</h6>
+                      <a href="#" class="btn btn-block btn-success">Explore</a>
+                          </div>
+                      </div>
+                </div>
+                </div>
+              </div>
           <img src="assets/bg.svg" class="img-fluid bgImg" />
         </div>
       </div>
@@ -132,8 +233,11 @@
       integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
       crossorigin="anonymous"
     ></script> -->
+    
     <script src="JS/jquery.slim.min.js"></script>
     <script src="JS/bootstrap.min.js"></script>
+    <script src="JS/jquery.min.js"></script>
+    <script src="JS/jquery.waypoints.min.js"></script>
     <script src="JS/all.js"></script>
     <script src="JS/custom.js"></script>
   </body>
