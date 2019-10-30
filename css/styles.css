@@ -1,0 +1,100 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.bg {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+}
+
+@media only screen and (max-width: 576px) {
+  .bg {
+    height: 30vh;
+  }
+}
+
+.bgg {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+}
+
+@media only screen and (max-width: 576px) {
+  .bgg {
+    height: 30vh;
+  }
+}
+
+.bggg {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+}
+
+@media only screen and (max-width: 576px) {
+  .bggg {
+    height: 30vh;
+  }
+}
+
+.bgImg {
+  position: absolute;
+  width: 100% !important;
+  height: 100% !important;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.navBar img {
+  position: absolute;
+  width: 110px !important;
+  height: auto;
+}
+
+ul li {
+  border-bottom: 2px solid transparent;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+ul li:hover {
+  border-bottom: 2px solid black;
+}
+
+.navItem {
+  color: black !important;
+}
+
+.footer {
+  height: 15vh;
+  background-color: #1a1b1d;
+}
+
+@media only screen and (max-width: 576px) {
+  .footer {
+    height: auto;
+  }
+}
+
+#ful li {
+  border-bottom: 2px solid transparent;
+}
+
+#ful li:hover {
+  border-bottom: 2px solid #555;
+}
+
+#avasLogo {
+  width: 30px;
+  height: auto;
+}
+
+.con {
+  position: absolute;
+  top: 200px;
+  background-color: transparent;
+  z-index: 1;
+}
+/*# sourceMappingURL=styles.css.map */
